@@ -1,0 +1,49 @@
+# Required sections, should be self-explanatory.
+name: Way home
+author: Jason
+category: recon
+description: |
+  This is my first time taking public transport but I don’t know which bus will take me home! I took a photo of the bus but some key information is missing 😔. Can you tell me the route number and name so I can get home safe?
+  *Note*: Your answer should be the bus route of the bus in the picture, you do not need to wrap your answer with `RCR{}`. For example, if you think the route is 373, then supply `373` as the flag.
+value: 100
+type: standard
+
+# Specifies flag(s) for this challenge.
+# You must provide at least one.
+flags:
+  - "961" # A static, case-sensitive flag.
+
+# Specifies hints that are used to give players a way to buy or have suggestions.
+# They are not required but are encouraged to keep players engaged.
+hints:
+  - Try Google images
+#     - content: This hint costs points
+#       cost: 10
+
+# Specifies files that will be accessible for this challenge during a CTF.
+# Paths are relative to the directory this file is in.
+files:
+  - src/challenge.jpg
+
+# Specifies the maximum number of attempts a participant can submit attempts.
+# attempts: 5
+
+# Provides instructions on how to connect to a challenge.
+# If your challenge requires hosting, leave this be so the Projects team can play around with it.
+# connection_info: nc pwn.ctf.secso.cc 1337
+
+# Specifies additional metadata for custom challenge types.
+# The section below is a commented example of the metadata for a dynamically scored challenge.
+# If you wish to make your challenge dynamic, set the type to `dynamic` and uncomment below.
+# extra:
+#     initial: 500
+#     decay: 100
+#     minimum: 50
+
+# Requirements are used to make a challenge require another challenge to be solved before being available.
+# requirements:
+#     - netcat
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

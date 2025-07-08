@@ -1,0 +1,49 @@
+# Required sections, should be self-explanatory.
+name: String Theory
+author: cameron
+category: reversing
+description: Just wait until string theorists find out about linked lists.
+value: 100
+type: standard
+
+# Specifies flag(s) for this challenge.
+# You must provide at least one.
+flags:
+    - RCR{string_theory_isnt_so_hard_after_all} # A static, case-sensitive flag.
+
+# Specifies hints that are used to give players a way to buy or have suggestions.
+# They are not required but are encouraged to keep players engaged.
+# hints:
+#     - This hint is free
+#     - content: This hint costs points
+#       cost: 10
+
+# Specifies files that will be accessible for this challenge during a CTF.
+# Paths are relative to the directory this file is in.
+files:
+   - string_theory
+
+connection_info: nc pwn.secso.cc 8006
+
+# Specifies the maximum number of attempts a participant can submit attempts.
+# attempts: 5
+
+# Provides instructions on how to connect to a challenge.
+# If your challenge requires hosting, leave this be so the Projects team can play around with it.
+# connection_info: <nsjail>
+
+# Specifies additional metadata for custom challenge types.
+# The section below is a commented example of the metadata for a dynamically scored challenge.
+# If you wish to make your challenge dynamic, set the type to `dynamic` and uncomment below.
+# extra:
+#     initial: 500
+#     decay: 100
+#     minimum: 50
+
+# Requirements are used to make a challenge require another challenge to be solved before being available.
+# requirements:
+#     - netcat
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

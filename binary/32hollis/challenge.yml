@@ -1,0 +1,27 @@
+name: "32hollis"
+author: mbvsthewrld
+category: binary
+description: |
+  2hollis is back in Sydney, but I slept through my alarms and now I'm in a dogfight for the last ticket to his concert. Can you win the auction and get it for me? Oh also buy me a pen, I wanna get something signed.
+  You can run the code [here](https://cgi.cse.unsw.edu.au/~cs1521/mipsy/) and open the documentation [here](https://cgi.cse.unsw.edu.au/~cs1521/24T2/resources/mips-guide.html). There is also a VS Code extension with functionality similar to the website except for the added benefit of convenient breakpoints. The decompiled code and data views will come in handy to visualise the memory layout.
+
+value: 300
+type: standard
+
+flags:
+  - RCR{h0ll1s_s1GN_MY_inT3g3r_plzd10c42}
+
+hints:
+  - Try your hand at breaking the program. Look for any edge cases that haven't been accounted for in the code, then test it out on the MIPSY IDE.
+
+# Specifies files that will be accessible for this challenge during a CTF.
+# Paths are relative to the directory this file is in.
+files:
+  - src/chal.c
+  - src/chal.s
+  - Dockerfile
+
+connection_info: nc pwn.secso.cc 8001
+
+# Specifies what version of the challenge specification was used.
+version: "0.1"

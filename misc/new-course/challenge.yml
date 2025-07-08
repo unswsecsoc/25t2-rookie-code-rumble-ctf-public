@@ -1,0 +1,47 @@
+# Required sections, should be self-explanatory.
+name: New course
+author: CSESoc
+category: misc
+description: |
+  I heard rumours that UNSW CSE's education committee recently approved the new Software Project Management course in February to run, starting next year! I can't wait to chat to other keen students about the course in CSESoc's Discord server.
+value: 100
+type: standard
+
+# Specifies flag(s) for this challenge.
+# You must provide at least one.
+flags:
+  - RCR{h0w_d1d_y0u_f1nd_th1s_c0urs3} # A static, case-sensitive flag.
+
+# Specifies hints that are used to give players a way to buy or have suggestions.
+# They are not required but are encouraged to keep players engaged.
+hints:
+  - Its really interesting how CSE's education committee has public meeting minutes. Can you find the website with all of the minutes, and find the February 2025 meeting?
+#     - content: This hint costs points
+#       cost: 10
+
+# Specifies files that will be accessible for this challenge during a CTF.
+# Paths are relative to the directory this file is in.
+# files:
+#    - src/challenge.c
+
+# Specifies the maximum number of attempts a participant can submit attempts.
+# attempts: 5
+
+# Provides instructions on how to connect to a challenge.
+# If your challenge requires hosting, leave this be so the Projects team can play around with it.
+
+# Specifies additional metadata for custom challenge types.
+# The section below is a commented example of the metadata for a dynamically scored challenge.
+# If you wish to make your challenge dynamic, set the type to `dynamic` and uncomment below.
+# extra:
+#     initial: 500
+#     decay: 100
+#     minimum: 50
+
+# Requirements are used to make a challenge require another challenge to be solved before being available.
+# requirements:
+#     - netcat
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

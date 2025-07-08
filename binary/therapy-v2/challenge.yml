@@ -1,0 +1,22 @@
+name: "therapy-v2"
+author: krishtilani
+category: binary
+description: |
+  just solve it, im too tired for this
+value: 400
+type: standard
+
+flags:
+  - RCR{h3y_h0w_d1d_y0u_g37_7hr0ugh_0ur_150l4710n_un17}
+
+hints:
+
+# Specifies files that will be accessible for this challenge during a CTF.
+# Paths are relative to the directory this file is in.
+files:
+  - src/chall
+
+connection_info: nc pwn.secso.cc 8003
+
+# Specifies what version of the challenge specification was used.
+version: "0.1"

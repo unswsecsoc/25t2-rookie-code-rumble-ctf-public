@@ -1,0 +1,14 @@
+name: note-service
+author: yellowsubmarine1447
+category: web
+description: I've heard CSE students take lots of notes during the lectures, so I made this super convenient note taking website!
+value: 100
+type: standard
+
+flags:
+  - RCR{rC3_Just_t0_ReaD_4_fiL3?}
+
+
+connection_info: https://note-service.secso.cc/
+
+version: "0.1"

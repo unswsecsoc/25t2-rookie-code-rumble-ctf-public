@@ -1,0 +1,51 @@
+# Required sections, should be self-explanatory.
+name: Structs 2
+author: Structs-team
+category: misc
+description: |
+  Welcome to the CSESoc x DevSoc x SecSoc Rookie Code Rumble (Structs Edition)! We hope you've had fun hacking so far. **TWO** flags have been planted in Structs. Flag #2 is located in our newly released visualiser-debugger. 
+  To the No.1 fans of Structs, now the real deal has begin! 
+  For this challenge, you will need to complete the code in `ctf_linked_list.c` and visualise your code, which will reveal numbers which correspond to characters.
+  **Note:** These characters should be wrapped in the `RCR{}` flag format. For example, if you find the characters `eat_lasagna`, the flag should be `RCR{eat_lasagna}`.
+value: 100
+type: standard
+
+# Specifies flag(s) for this challenge.
+# You must provide at least one.
+flags:
+  - RCR{click_me} # A static, case-sensitive flag.
+
+# Specifies hints that are used to give players a way to buy or have suggestions.
+# They are not required but are encouraged to keep players engaged.
+# hints:
+#     - This hint is free
+#     - content: This hint costs points
+#       cost: 10
+
+# Specifies files that will be accessible for this challenge during a CTF.
+# Paths are relative to the directory this file is in.
+# files:
+#    - src/challenge.c
+
+# Specifies the maximum number of attempts a participant can submit attempts.
+# attempts: 5
+
+# Provides instructions on how to connect to a challenge.
+# If your challenge requires hosting, leave this be so the Projects team can play around with it.
+connection_info: https://structs.sh/
+
+# Specifies additional metadata for custom challenge types.
+# The section below is a commented example of the metadata for a dynamically scored challenge.
+# If you wish to make your challenge dynamic, set the type to `dynamic` and uncomment below.
+# extra:
+#     initial: 500
+#     decay: 100
+#     minimum: 50
+
+# Requirements are used to make a challenge require another challenge to be solved before being available.
+# requirements:
+#     - netcat
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

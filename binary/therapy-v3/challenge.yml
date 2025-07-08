@@ -1,0 +1,23 @@
+name: "therapy-v3"
+author: krishtilani
+category: binary
+description: |
+  limited therapy, buy our full version for unlimited therapy (we're broke)
+
+value: 500
+type: standard
+
+flags:
+  - RCR{rbp_f1nn4_b3_7w34k1n9_4f73r_7h053_p1v07s}
+
+hints:
+
+# Specifies files that will be accessible for this challenge during a CTF.
+# Paths are relative to the directory this file is in.
+files:
+  - src/chall
+
+connection_info: nc pwn.secso.cc 8004
+
+# Specifies what version of the challenge specification was used.
+version: "0.1"

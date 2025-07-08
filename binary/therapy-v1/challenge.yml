@@ -1,0 +1,24 @@
+name: "therapy-v1"
+author: krishtilani
+category: binary
+description: |
+  some people say its a ripoff of a note-taking app, i think they should be ripped off from the face of the earth.
+
+value: 300
+type: standard
+
+flags:
+  - RCR{p33kab00_f0rm47_s33_thr0ugh}
+
+hints:
+  - Wow I love not using format specifiers to print. Why doesn't everybody do that?
+
+# Specifies files that will be accessible for this challenge during a CTF.
+# Paths are relative to the directory this file is in.
+files:
+  - src/chall
+
+connection_info: nc pwn.secso.cc 8002
+
+# Specifies what version of the challenge specification was used.
+version: "0.1"
